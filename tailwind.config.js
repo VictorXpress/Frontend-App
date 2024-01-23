@@ -7,8 +7,15 @@ export default {
     './components/**/*.{html,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primario': '#15803D',
+        'primary': '#15803D',
+        'secondary': '#6FA5C5',
+        'accent': '#1E293B',
+        
+      },
+    },
   },
   plugins: [],
 }
-
